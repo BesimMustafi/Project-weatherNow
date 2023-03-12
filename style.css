@@ -1,6 +1,6 @@
 body {
   font-family: arial, sans-serif;
-  background: linear-gradient(to right, rgb(151, 150, 240), rgb(251, 199, 212));
+  background: linear-gradient(to right, rgb(45, 44, 82), rgb(251, 199, 212));
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
@@ -41,7 +41,7 @@ li {
 }
 
 .weather-app {
-  border: 1px solid rgb(221, 184, 221);
+  border: 1px solid rgb(138, 103, 138);
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
@@ -81,4 +81,16 @@ p {
   font-style: italic;
   font-weight: bold;
   padding-top: 355px;
+}
+.changeUsername {
+  font-size: 25px;
+  font-family: monospace;
+  color: rgb(24, 17, 59);
+}
+.changeUsername:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ffff;
+  opacity: 0.9;
+  transition: 200ms ease-in-out;
 }
