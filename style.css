@@ -1,10 +1,23 @@
 body {
   font-family: arial, sans-serif;
-  background-image: url(image/thermometer-20169909.jpg);
+  background: linear-gradient(to right, rgb(151, 150, 240), rgb(251, 199, 212));
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100%;
 }
-
+.about-Me {
+  list-style: none;
+  text-align: right;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
 h1 {
   color: #0f0d0d;
   font-size: 24px;
@@ -28,11 +41,13 @@ li {
 }
 
 .weather-app {
+  border: 1px solid rgb(221, 184, 221);
   padding: 15px;
   margin: 20px auto;
-
+  border-radius: 10px;
   max-width: 600px;
 }
+
 .col-3 {
   flex: 0 0 auto;
   width: 25%;
@@ -58,4 +73,12 @@ li {
 
 .search-form {
   margin-bottom: 20px;
+}
+.main-menu {
+}
+p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 355px;
 }
