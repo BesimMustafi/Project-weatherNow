@@ -9,6 +9,7 @@
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
     <title>Koha sot</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
       <div class="weather-app">
         <form class="search-form">
           <div class="row">
-            <div class="col-4">
+            <div class="col-6">
               <input
                 type="text"
                 placeholder="Shkruajë qytetin që deshiron..."
@@ -24,18 +25,38 @@
                 autofocus="on"
                 class="form-control shadow-sm" />
             </div>
-            <div class="col-1">
+            <div class="col-3">
               <input
                 type="submit"
                 value="Kërko"
-                class="form-control btn btn-primary shadow-sm w-100" />
+                class="btn btn-outline-primary" />
             </div>
-            <div class="col-2">
-              <button class="btn btn-success w-100">Koha aktuale</button>
+            <div class="col-3">
+              <button class="btn btn-outline-success">Koha aktuale</button>
             </div>
           </div>
         </form>
-        <h1></h1>
+        <h1 id="city">Kumanovë</h1>
+        <ul>
+          <li id="date">Sunday 13:46</li>
+          <li id="description">Clear</li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearfix">
+              <div class="float-left">
+                <span class="temperature" id="temperature">8</span
+                ><span class="units">°C</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
