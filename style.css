@@ -1,6 +1,6 @@
 body {
   font-family: arial, sans-serif;
-  background: linear-gradient(to right, rgb(45, 44, 82), rgb(251, 199, 212));
+  background: linear-gradient(to right, rgb(63, 61, 175), rgb(210, 199, 251));
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
@@ -20,7 +20,7 @@ a:hover {
 }
 h1 {
   color: #0f0d0d;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 100;
   line-height: 28px;
   margin: 0;
@@ -41,7 +41,7 @@ li {
 }
 
 .weather-app {
-  border: 1px solid rgb(138, 103, 138);
+  border: 1px solid rgb(90, 81, 90);
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
