@@ -74,12 +74,11 @@ li {
 .search-form {
   margin-bottom: 20px;
 }
-.main-menu {
-}
+
 p {
   font-size: 20px;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 900;
   padding-top: 355px;
 }
 .changeUsername {
